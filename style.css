@@ -40,13 +40,54 @@ header{
 
 body{
 	background:none;
-	color:white;
+	color:black;
 	margin:0px;
 	padding:0px;
 }
 p{	font-size: 25px;}
 h1,h2,h3,h4,h5,h6{	color: red;}
-
+.post{
+		
+		background:#FDD9B5;
+		border: 1px solid black;
+		border-radius: 30px;
+}
+.post div{
+		padding: 30px;
+}
+.post-info{
+	color: grey;
+	
+}
+.alignleft{
+	float: left;
+	margin-right: 15px;
+}
+.alignright{
+	float:right;
+	margin-left: 15px;
+}
+.post img{
+	border: 6px double #cecece;
+	border-radius: 30px;
+	
+	/* 
+		width - 
+		height - 
+		sizes - размеры страницы для разных для разных макетов изображения,
+		при разных разрешния экрана
+		srcset - указывает набор возможных изображений
+		для отображения вбраузере(адрес, ширина, плотность пикселей)
+		imap - указатель серверной карты-изображеня, к которой можно привязать ссылки
+		usemap - связывает картинку с картой изображения при помощи тега <map>
+		Применяются изображения формата JPEG, GIF, PNG, PNG-8,24,32,
+		APNG, SVG, WEB BMP, ICO, fav
+		
+		
+		
+		
+	*/
+}
 /*Свойства для абзацев */
 /*Обращение к id */
 #p1{
