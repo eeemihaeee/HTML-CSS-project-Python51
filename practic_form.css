@@ -1,0 +1,37 @@
+div{}
+form{width:400px;
+padding: 20px;
+margin: auto;
+height:300px;
+border: 3px solid black;
+background:#c2bfb6;
+border-radius: 16px;
+background: url('images/foncard.avif');
+color:white;}
+
+.h2absolut{
+	
+	width:350px;
+	height: 60px;
+	margin-left:-50px;
+	text-align:right;
+	vertical-align: middle;
+	background: orange;
+}
+.div3block{
+	display: flex;
+	width: 300px;
+	margin-top: 20px;
+}
+input {
+	width:29px;
+}
+div{margin-top: 20px;}
+.div3block div input{
+	width: 70px;
+}
+.div3block div{
+	margin: auto;
+	margin-left:0;
+	
+}
